@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+   margin-left: -165px;
+   margin-top: 45px;
+}
+div{
+    background:#3046d8;
+    display: inline-block;
+    padding: 30px 90px;
+    box-shadow: 0px 0px 15px black;
+    transform: rotate(-45deg);
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    text-shadow:0px 0px 5px black;
+    padding: 25px 90px;
+    font-size: 18px;
+}

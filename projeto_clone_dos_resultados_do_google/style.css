@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+header{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
+.menu{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.menu h1 a{
+    text-decoration: none;
+    font-family: cursive;
+    color: rgb(3, 143, 143);
+}
+.menu h1{
+    font-family: cursive;
+    color: rgb(3, 143, 143);
+}
+form{
+    display: flex;
+    align-items: center;
+}
+input[type=search]{
+    margin-left: 30px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    background: #ddd;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 15px;
+}
+input[type=search]:hover{
+    box-shadow: 0px 0px 4px #aaa;
+}
+button{
+    margin-left: 370px;
+    background: rgb(3, 143, 143);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+}
+li{
+    
+    margin-top: 40px;
+    list-style: none;
+}
+li a{
+    padding:20px 20px 3px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+}
+li a:hover{
+    border-bottom: 2px solid rgb(3, 143, 143);
+    color: rgb(3, 143, 143);
+}
+a.tudo{
+    border-bottom: 2px solid rgb(3, 143, 143);
+    color: rgb(3, 143, 143);
+}
+.resultados{
+    max-width: 600px;
+    margin:20px 0;
+}
+.resultados p{
+    padding: 5px 0;
+    font-size: 15px;
+    color:rgb(78, 78, 78);
+}
+.resultados a{
+    text-decoration: none;
+}
+.resultados a:hover{
+    text-decoration: underline;
+}
+.noticias{
+    margin:20px 0px ;
+    display: flex;
+    max-width: 600px;
+}
+.noticias a{
+    text-decoration: none;
+}
+.noticias a:hover{
+    text-decoration: underline;
+}
+.noticias p{
+    color: rgb(78, 78, 78);
+    font-size: 12px;
+}
+.noticias1{
+    max-width: 200px;
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.noticias1 img{
+    border-radius:10px 10px 0 0 ;
+}
+.one h2{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.imagens1 img{
+    width: 170px;
+    height: 150px;
+    margin: 15px 5px;
+}
+.imagens h2 a{
+    text-decoration: none;
+    
+}
+.imagens h2 a:hover{
+    text-decoration: underline;
+}
+.relacionados1{
+    display: flex;
+    
+}
+.relacionados1 div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.relacionados1 a{
+text-decoration: none;
+padding: 5px;
+font-size: 15px;
+}
+.relacionados1 a:hover{
+    text-decoration: underline;
+}
+.two{
+    text-align: center;
+    display: flex;
+}
+.barra{
+    margin: 10px;
+}
+.barra a{
+    padding: 7px;
+    font-size: 13px;
+}
+.barra1{
+    display: flex;
+    align-items: center;
+}
+.barra1 h2{
+    font-family: cursive;
+    font-size: 35px;
+    color:rgb(3, 143, 143);
+}
+.um{
+    background: rgb(245, 242, 242);
+    padding: 10px 30px;
+    border: 1px solid rgb(223, 218, 218);
+}
+.um h4{
+    padding: 0 15px;
+    color: rgb(78, 78, 78);
+    font-weight: normal;
+    font-size: 15px;
+}
+.dois {
+    background: rgb(245, 242, 242);
+    padding: 10px 30px;
+    border: 1px solid rgb(223, 218, 218);
+}
+.footer1 a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+}
+.footer1 a:hover{
+    color: black;
+}

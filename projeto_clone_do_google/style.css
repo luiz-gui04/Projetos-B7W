@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    margin: 0px 0px;
+    list-style: none;
+    font-size: 13px;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: black;
+    transition: 100ms;
+}
+ li a:hover{
+    transition: 100ms;
+    color: rgb(3, 143, 143);
+    background: #ddd;
+    border-bottom: 2px solid rgb(3, 143, 143);
+
+}
+.tudo{
+    color: rgb(3, 143, 143);
+    background: #ddd;
+    border-bottom: 2px solid rgb(3, 143, 143);
+}
+button{
+    margin-left: 5px;
+    background: rgb(3, 143, 143);
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.noodle{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 261px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    font-family: cursive;
+    color: rgb(3, 143, 143);
+}
+input[type="search"]{
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    background: #ddd;
+    padding:15px;
+    font-size: 16px;
+    border:1px solid #ccc;
+}
+.um{
+   background: rgb(245, 242, 242);
+   padding:10px 30px;
+   border: 1px solid rgb(223, 218, 218);
+}
+h4{
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+}
+.dois{
+    background: rgb(245, 242, 242);
+    padding:10px 30px;
+    border: 1px solid rgb(223, 218, 218);
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    
+}
+.one h4 a{
+    padding-right:15px ;
+    color:gray ;
+    text-decoration: none;
+}
+.two{
+    display: flex;
+}
+.two h4 a{
+    padding-left:15px ;
+    color:gray ;
+    text-decoration: none;
+}
+.menu_mobile{
+    display: none;
+}
+.rodape1{
+    display: none;
+}
+@media (max-width:500px){
+    .menu{
+        display: none;
+    }
+    .menu_mobile{
+        display: flex;
+        width: 500px;
+    }
+
+    .noodle{
+        margin-top: 200px;
+        margin-bottom: 260px;
+        width: 500px;
+    }
+    .logo{
+        margin:0 250px;
+    }
+    input[type="search"]{
+        width: 450px;
+        margin:0 20px;
+    }
+    .rodape{
+        display: none;
+        
+    }
+    .um{
+        width: 500px;
+    }
+    .dois{
+        width: 500px;
+    }
+    .rodape1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    h4{
+        padding: 5px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+    }
+
+
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1280px;
+}
+header{
+    background: rgb(19, 18, 18);
+}
+.logo h1{
+    color: #ccc;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color:#ccc ;
+}
+a:hover{
+    background: #ccc;
+    color: rgb(19, 18, 18);
+    transition: 250ms;
+}
+section{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    background-image: url('sony-jogos-filmes-tv-768x296.jpg');
+
+}
+section h1{
+    margin: 40px 0;
+    font-size: 60px;
+    border-bottom: 2px solid #ccc;
+}
+section .container{
+    background:  rgb(19, 18, 18);
+    width: 735px;
+    padding: 30px;
+    border-radius: 30px;
+}
+input{
+    margin: 25px 15px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+}
+input[type="date"]{
+    margin-right: 25px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background: rgb(3, 55, 138);
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    width: 200px;
+}
+.termos{
+    font-size: 13px;
+}
+.one{
+    width: 200px;
+    height: 40px;
+    
+}
+footer{
+    background: rgb(19, 18, 18);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #ccc;
+    font-size: 13px;
+}

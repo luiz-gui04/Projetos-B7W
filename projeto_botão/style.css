@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botão{
+    text-decoration: none;
+    color: white;
+    padding: 25px 50px;
+    font-size: 40px;
+    background: linear-gradient(-50deg,#00f,#000);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+
+}
+.botão:hover{
+    box-shadow: 0px 0px 0px black;
+}
